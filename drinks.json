@@ -516,6 +516,72 @@
         "logobgcolor":"#fff",
         "logotxtcolor":"#000",
         "logobpath":"assets/ribena.svg"
+    },
+    "Tango":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Britvic Soft Drinks Limited",
+        "website":"https://www.britvic.com/our-brands/brands-a-z/tango",
+        "logourl":"https://www.britvic.com/~/media/Images/B/Britvic-V3/banners/logo-thumb/tango-logo-v2.jpg",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/tango.jpg"
+    },
+    "Purdeys":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Britvic Soft Drinks Limited",
+        "website":"https://www.britvic.com/our-brands/brands-a-z/purdeys",
+        "logourl":"https://www.britvic.com/~/media/Files/B/Britvic-V3/144%20x%20144%20icon%20image.jpg",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/purdeys.jpg"
+    },
+    "Aqua Libra":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Britvic Soft Drinks Limited",
+        "website":"https://www.britvic.com/our-brands/brands-a-z/aqua-libra",
+        "logourl":"https://www.britvic.com/~/media/Images/B/Britvic-V3/banners/new-thumbs/aqua-libra-logo.jpg",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/aqualibra.jpg"
+    },
+    "Drench":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Britvic Soft Drinks Limited",
+        "website":"https://www.britvic.com/our-brands/brands-a-z/drench",
+        "logourl":"https://www.britvic.com/~/media/Images/B/Britvic-V3/Drench%20logo-%20website%202.jpg",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/aqualibra.jpg"
+    },
+    "Ballygowan":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Britvic Soft Drinks Limited",
+        "website":"https://www.britvic.com/our-brands/brands-a-z/ballygowan",
+        "logourl":"https://www.britvic.com/~/media/Images/B/Britvic-V3/banners/logo-thumb/ballygowan-logo-v2.jpg",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/ballygowan.jpg"
+    },
+    "Britvic":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Britvic Soft Drinks Limited",
+        "website":"https://www.britvic.com/our-brands/brands-a-z/britvic-mixers-juices-and-cordials",
+        "logourl":"https://www.britvic.com/~/media/Images/B/Britvic-V3/banners/logo-thumb/britvic-logo-v2.jpg",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/britvic.jpg"
     }
     }
 }
