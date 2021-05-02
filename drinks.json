@@ -389,7 +389,7 @@
         "cocacola":false,
         "pepsico":true,
         "independent":false,
-        "brand":"Fever-Tree",
+        "brand":"PepsiCo",
         "website":"https://gatorade.co.uk/",
         "logourl":"https://gatorade.co.uk/images/default-source/new_site/footer/gatorade_logo.png",
         "logobgcolor":"#000",
@@ -505,6 +505,17 @@
         "logobgcolor":"#fff",
         "logotxtcolor":"#000",
         "logobpath":"assets/costacoffee.png"
+    },
+    "Ribena":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Suntory Beverage & Food Europe Group",
+        "website":"https://www.ribena.co.uk/",
+        "logourl":"https://www.ribena.co.uk/dyn/_pictures/_theme/brnd/ribena-logo-full.svg",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/ribena.svg"
     }
     }
 }
