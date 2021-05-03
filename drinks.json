@@ -583,5 +583,16 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/britvic.jpg"
     }
+    },
+"companies":{
+    "Britvic":{
+        "drinkscount":10
+    },
+    "PepsiCo":{
+        "drinkscount":6
+    },
+    "The Coca-Cola Company":{
+        "drinkscount":21
     }
+}
 }
