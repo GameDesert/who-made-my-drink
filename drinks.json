@@ -202,7 +202,7 @@
         "cocacola":false,
         "pepsico":false,
         "independent":true,
-        "brand":"Suntory Beverage & Food Europe Group",
+        "brand":"Suntory Beverage & Food",
         "website":"https://www.lucozade.com/",
         "logourl":"https://www.lucozade.com/dyn/_pictures/branding-images/lucozade_black130.png",
         "logobgcolor":"#fff",
@@ -323,7 +323,7 @@
         "cocacola":false,
         "pepsico":false,
         "independent":true,
-        "brand":"A.G. BARR p.l.c.",
+        "brand":"A.G. BARR",
         "website":"https://irn-bru.co.uk/",
         "logourl":"https://static.tumblr.com/e07e6731604c806b3a1cd10df5eb496e/baq9i9f/EbGpqf0xu/tumblr_static_xjoe6wjis8gskwkggock4oko.png",
         "logobgcolor":"#fff",
@@ -510,7 +510,7 @@
         "cocacola":false,
         "pepsico":false,
         "independent":true,
-        "brand":"Suntory Beverage & Food Europe Group",
+        "brand":"Suntory Beverage & Food",
         "website":"https://www.ribena.co.uk/",
         "logourl":"https://www.ribena.co.uk/dyn/_pictures/_theme/brnd/ribena-logo-full.svg",
         "logobgcolor":"#fff",
@@ -582,6 +582,39 @@
         "logobgcolor":"#fff",
         "logotxtcolor":"#000",
         "logobpath":"assets/britvic.jpg"
+    },
+    "Bundaberg":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"A.G. BARR",
+        "website":"https://www.bundaberg.com",
+        "logourl":"https://s3-ap-southeast-2.amazonaws.com/bbd-website-production/wp-content/themes/bundaberg/images/logo-bbd-full.png",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/bundaberg.png"
+    },
+    "KA":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"A.G. BARR",
+        "website":"https://kadrinks.com/",
+        "logourl":"https://kadrinks.com/wp-content/uploads/ka-logo.svg",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/ka.svg"
+    },
+    "Orangina":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Suntory Beverage & Food",
+        "website":"https://www.orangina.co.uk/",
+        "logourl":"https://www.orangina.co.uk/dyn/_pictures/branding-images/orangina-300px.png",
+        "logobgcolor":"#000",
+        "logotxtcolor":"#fff",
+        "logobpath":"assets/orangina.png"
     }
     },
 "companies":{
