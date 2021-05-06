@@ -315,8 +315,8 @@
         "brand":"Dalston Soda Co Ltd.",
         "website":"https://dalstons.com/",
         "logourl":"https://cdn.shopify.com/s/files/1/0259/3885/3969/files/Dalstons_Master_Logo_Lemonade_400x.png",
-        "logobgcolor":"#000",
-        "logotxtcolor":"#fff",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
         "logobpath":"assets/dalstons.webp"
     },
     "Irn Bru":{
@@ -613,6 +613,17 @@
         "website":"https://www.orangina.co.uk/",
         "logourl":"https://www.orangina.co.uk/dyn/_pictures/branding-images/orangina-300px.png",
         "logobgcolor":"#000",
+        "logotxtcolor":"#fff",
+        "logobpath":"assets/orangina.png"
+    },
+    "Vimto":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Nichols PLC.",
+        "website":"https://www.nicholsplc.co.uk/products/vimto/",
+        "logourl":"https://www.nicholsplc.co.uk/products/vimto/",
+        "logobgcolor":"#fff",
         "logotxtcolor":"#fff",
         "logobpath":"assets/orangina.png"
     }
