@@ -621,11 +621,11 @@
         "pepsico":false,
         "independent":true,
         "brand":"Nichols PLC.",
-        "website":"https://www.nicholsplc.co.uk/products/vimto/",
-        "logourl":"https://www.nicholsplc.co.uk/products/vimto/",
-        "logobgcolor":"#fff",
+        "website":"https://www.vimto.co.uk/",
+        "logourl":"https://www.vimto.co.uk/wp-content/themes/vimto/assets/images/vimto-logo.svg",
+        "logobgcolor":"#000",
         "logotxtcolor":"#fff",
-        "logobpath":"assets/orangina.png"
+        "logobpath":"assets/vimto.svg"
     }
     },
 "companies":{
