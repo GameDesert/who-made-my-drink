@@ -626,6 +626,17 @@
         "logobgcolor":"#000",
         "logotxtcolor":"#fff",
         "logobpath":"assets/vimto.svg"
+    },
+    "Radnor Fruits":{
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"Radnor Hills Mineral Water Company Limited",
+        "website":"https://www.radnorhills.co.uk/product-category/53f48231f0ab6/School-Compliant?brand=53f4826853dad",
+        "logourl":"https://www.radnorhills.co.uk/thumb.php?img=pictures/Radnor+Fruits+logo+white+background.jpg&w=300&h=300",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/radnor.jpeg"
     }
     },
 "companies":{
