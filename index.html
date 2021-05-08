@@ -199,6 +199,19 @@
                 -ms-user-select:none;
                 user-select:none
             }
+
+            .social {
+                margin: 10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 8px;
+                text-align: center;
+                width: 30%;
+                padding: 10px;
+                font-size: 20px;
+                text-decoration: none;
+            }
         </style>
     </head>
     <body style="margin: 0%; background-color: #d4d4d4;">
@@ -208,63 +221,63 @@
                 <button onclick="myFunction()" style="display: inline-grid; width: 100%;" class="dropbtn">Select Beverage From List&#32;<i class="fas fa-chevron-down"></i></button>
                 <div id="myDropdown" class="dropdown-content">
                 <input type="text" placeholder="Search Beverage..." id="myInput" onkeyup="filterFunction()">
-                <p class="drinklink" onclick="check('Appletiser')">Appletiser</p>
-                <p class="drinklink" onclick="check('Aqua Libra')">Aqua Libra</p>
-                <p class="drinklink" onclick="check('Aquarius')">Aquarius</p>
-                <p class="drinklink" onclick="check('Ballygowan')">Ballygowan</p>
-                <p class="drinklink" onclick="check('Belvoir')">Belvoir</p>
-                <p class="drinklink" onclick="check('Bottlegreen')">Bottlegreen</p>
-                <p class="drinklink" onclick="check('Britvic')">Britvic</p>
-                <p class="drinklink" onclick="check('Bundaberg')">Bundaberg</p>
-                <p class="drinklink" onclick="check('Cawston Press')">Cawston Press</p>
-                <p class="drinklink" onclick="check('Coca-Cola')">Coca-Cola</p>
-                <p class="drinklink" onclick="check('Coca-Cola Energy')">Coca-Cola Energy</p>
-                <p class="drinklink" onclick="check('Coca-Cola Signature Mixers')">Coca-Cola Signature Mixers</p>
-                <p class="drinklink" onclick="check('Coca-Cola Zero Sugar')">Coca-Cola Zero Sugar</p>
-                <p class="drinklink" onclick="check('Costa Coffee')">Costa Coffee</p>
-                <p class="drinklink" onclick="check('Dalstons')">Dalston's</p>
-                <p class="drinklink" onclick="check('Diet Coke')">Diet Coke</p>
-                <p class="drinklink" onclick="check('Double Dutch')">Double Dutch</p>
-                <p class="drinklink" onclick="check('Drench')">Drench</p>
-                <p class="drinklink" onclick="check('Dr. Pepper')">Dr. Pepper</p>
-                <p class="drinklink" onclick="check('Fanta')">Fanta</p>
-                <p class="drinklink" onclick="check('Fentimans')">Fentimans</p>
-                <p class="drinklink" onclick="check('Fever-Tree')">Fever-Tree</p>
-                <p class="drinklink" onclick="check('Fuzetea')">Fuzetea</p>
-                <p class="drinklink" onclick="check('Gatorade')">Gatorade</p>
-                <p class="drinklink" onclick="check('Glaceau Smartwater')">Glaceau Smartwater</p>
-                <p class="drinklink" onclick="check('Glaceau Vitaminwater')">Glaceau Vitaminwater</p>
-                <p class="drinklink" onclick="check('Honest Organic')">Honest Organic</p>
-                <p class="drinklink" onclick="check('Irn Bru')">Irn Bru</p>
-                <p class="drinklink" onclick="check('J2O')">J2O</p>
-                <p class="drinklink" onclick="check('KA')">KA</p>
-                <p class="drinklink" onclick="check('Lilt')">Lilt</p>
-                <p class="drinklink" onclick="check('Lipton')">Lipton</p>
-                <p class="drinklink" onclick="check('London Essence Co.')">London Essence Co.</p>
-                <p class="drinklink" onclick="check('Lucozade')">Lucozade</p>
-                <p class="drinklink" onclick="check('Monster Energy')">Monster Energy</p>
-                <p class="drinklink" onclick="check('Mountain Dew')">Mountain Dew</p>
-                <p class="drinklink" onclick="check('Naked')">Naked</p>
-                <p class="drinklink" onclick="check('Oasis')">Oasis</p>
-                <p class="drinklink" onclick="check('Old Jamaica')">Old Jamaica</p>
-                <p class="drinklink" onclick="check('Orangina')">Orangina</p>
-                <p class="drinklink" onclick="check('Pepsi')">Pepsi</p>
-                <p class="drinklink" onclick="check('Powerade')">Powerade</p>
-                <p class="drinklink" onclick="check('Purdeys')">Purdey's</p>
-                <p class="drinklink" onclick="check('Radnor Fruits')">Radnor Fruits</p>
-                <p class="drinklink" onclick="check('Ribena')">Ribena</p>
-                <p class="drinklink" onclick="check('Robinsons')">Robinsons</p>
-                <p class="drinklink" onclick="check('Roses')">Rose's</p>
-                <p class="drinklink" onclick="check('R. Whites')">R. Whites</p>
-                <p class="drinklink" onclick="check('San Pellegrino')">San Pellegrino</p>
-                <p class="drinklink" onclick="check('Schweppes')">Schweppes</p>
-                <p class="drinklink" onclick="check('Schweppes Signature Collection')">Schweppes Signature Collection</p>
-                <p class="drinklink" onclick="check('Shloer')">Shloer</p>
-                <p class="drinklink" onclick="check('Sprite')">Sprite</p>
-                <p class="drinklink" onclick="check('Tango')">Tango</p>
-                <p class="drinklink" onclick="check('Tropicana')">Tropicana</p>
-                <p class="drinklink" onclick="check('Vimto')">Vimto</p>
-                <p class="drinklink" onclick="check('7 Up')">7 Up</p>
+                <p class="drinklink" onclick="check('appletiser')">Appletiser</p>
+                <p class="drinklink" onclick="check('aqua libra')">Aqua Libra</p>
+                <p class="drinklink" onclick="check('aquarius')">Aquarius</p>
+                <p class="drinklink" onclick="check('ballygowan')">Ballygowan</p>
+                <p class="drinklink" onclick="check('belvoir')">Belvoir</p>
+                <p class="drinklink" onclick="check('bottlegreen')">Bottlegreen</p>
+                <p class="drinklink" onclick="check('britvic')">Britvic</p>
+                <p class="drinklink" onclick="check('bundaberg')">Bundaberg</p>
+                <p class="drinklink" onclick="check('cawston press')">Cawston Press</p>
+                <p class="drinklink" onclick="check('coca-cola')">Coca-Cola</p>
+                <p class="drinklink" onclick="check('coca-cola energy')">Coca-Cola Energy</p>
+                <p class="drinklink" onclick="check('coca-cola signature mixers')">Coca-Cola Signature Mixers</p>
+                <p class="drinklink" onclick="check('coca-cola zero sugar')">Coca-Cola Zero Sugar</p>
+                <p class="drinklink" onclick="check('costa coffee')">Costa Coffee</p>
+                <p class="drinklink" onclick="check('dalstons')">Dalston's</p>
+                <p class="drinklink" onclick="check('diet coke')">Diet Coke</p>
+                <p class="drinklink" onclick="check('double dutch')">Double Dutch</p>
+                <p class="drinklink" onclick="check('drench')">Drench</p>
+                <p class="drinklink" onclick="check('dr pepper')">Dr. Pepper</p>
+                <p class="drinklink" onclick="check('fanta')">Fanta</p>
+                <p class="drinklink" onclick="check('fentimans')">Fentimans</p>
+                <p class="drinklink" onclick="check('fever-tree')">Fever-Tree</p>
+                <p class="drinklink" onclick="check('fuzetea')">Fuzetea</p>
+                <p class="drinklink" onclick="check('gatorade')">Gatorade</p>
+                <p class="drinklink" onclick="check('glaceau smartwater')">Glaceau Smartwater</p>
+                <p class="drinklink" onclick="check('glaceau vitaminwater')">Glaceau Vitaminwater</p>
+                <p class="drinklink" onclick="check('honest organic')">Honest Organic</p>
+                <p class="drinklink" onclick="check('irn bru')">Irn Bru</p>
+                <p class="drinklink" onclick="check('j2o')">J2O</p>
+                <p class="drinklink" onclick="check('ka')">KA</p>
+                <p class="drinklink" onclick="check('lilt')">Lilt</p>
+                <p class="drinklink" onclick="check('lipton')">Lipton</p>
+                <p class="drinklink" onclick="check('london essence co')">London Essence Co.</p>
+                <p class="drinklink" onclick="check('lucozade')">Lucozade</p>
+                <p class="drinklink" onclick="check('monster energy')">Monster Energy</p>
+                <p class="drinklink" onclick="check('mountain dew')">Mountain Dew</p>
+                <p class="drinklink" onclick="check('naked')">Naked</p>
+                <p class="drinklink" onclick="check('oasis')">Oasis</p>
+                <p class="drinklink" onclick="check('old jamaica')">Old Jamaica</p>
+                <p class="drinklink" onclick="check('orangina')">Orangina</p>
+                <p class="drinklink" onclick="check('pepsi')">Pepsi</p>
+                <p class="drinklink" onclick="check('powerade')">Powerade</p>
+                <p class="drinklink" onclick="check('purdeys')">Purdey's</p>
+                <p class="drinklink" onclick="check('radnor fruits')">Radnor Fruits</p>
+                <p class="drinklink" onclick="check('ribena')">Ribena</p>
+                <p class="drinklink" onclick="check('robinsons')">Robinsons</p>
+                <p class="drinklink" onclick="check('roses')">Rose's</p>
+                <p class="drinklink" onclick="check('r whites')">R. Whites</p>
+                <p class="drinklink" onclick="check('san pellegrino')">San Pellegrino</p>
+                <p class="drinklink" onclick="check('schweppes')">Schweppes</p>
+                <p class="drinklink" onclick="check('schweppes signature collection')">Schweppes Signature Collection</p>
+                <p class="drinklink" onclick="check('shloer')">Shloer</p>
+                <p class="drinklink" onclick="check('sprite')">Sprite</p>
+                <p class="drinklink" onclick="check('tango')">Tango</p>
+                <p class="drinklink" onclick="check('tropicana')">Tropicana</p>
+                <p class="drinklink" onclick="check('vimto')">Vimto</p>
+                <p class="drinklink" onclick="check('7 up')">7 Up</p>
                 </div>
             </div>
         </div>
@@ -278,12 +291,25 @@
                 <span onclick="document.getElementById('sharemodal').style.display='none'"
                 class="sharemodal-button sharemodal-display-topright">&times;</span>
                 <br>
-                <p><b>Share</b></p>
+                <p><b>Share</b>&#32;<i class="fas fa-share"></i></p>
                 <p>Who Made My Drink?</p>
                 <hr>
                 <p style="font-size: 24px;">Click to Copy Link:</p>
                 <p style="font-size: 20px;"><input onclick="copysharelink()" name="sharelink" id="sharelink" placeholder="https://whomademydrink.kotla.eu/" style="height: 24px; width: 50%;" readonly value="" title="Click To Copy" id="link">&#32;&#32;<button onclick="copysharelink()" style="height: 24px;"><i class="fas fa-copy"></i></button></p>
-                <p style="color: rgb(150, 150, 150); font-size: 20px;" id="copyinfo"></p>
+                <p style="color: rgb(150, 150, 150); font-size: 20px;" id="copyinfo">-</p>
+                <br>
+                <hr>
+                <p style="font-size: 24px;">Share on Social Media:</p>
+                <a href="#" style="text-decoration: none;" id="redditlink" rel="nofollow" title="Reddit" target="_blank"><div style="background-color: #ff4500; color: #fff;" id="reddit" class="social"><i class="fab fa-reddit"></i> | Reddit</div></a>
+                <br>
+                <a href="#" style="text-decoration: none;" id="whatsapplink" rel="nofollow" title="WhatsApp" target="_blank"><div style="background-color: #25d366; color: #fff;" id="whatsapp" class="social"><i class="fab fa-whatsapp"></i> | WhatsApp</div></a>
+                <br>
+                <a href="#" style="text-decoration: none;" id="facebooklink" rel="nofollow" title="Facebook" target="_blank"><div style="background-color: #1877f2; color: #fff;" id="facebook" class="social"><i class="fab fa-facebook"></i> | Facebook</div></a>
+                <br>
+                <a href="#" style="text-decoration: none;" id="emaillink" rel="nofollow" title="Email" target="_blank"><div style="background-color: #323031; color: #fff;" id="email" class="social"><i class="fas fa-envelope-open-text"></i> | Email</div></a>
+                <br>
+                <br>
+                <br>
             </div>
             </div>
           </div>
@@ -392,24 +418,6 @@
         <p>All trademarks including logos and names are the property of their respective owners. Some data may not be accurate as most brands are licensed to more local manufacturers; this website aims to provide the names of the companies highest up the chain. This website is purely for educational purposes. Bottle by AFY Studio from the Noun Project.<p>
         </footer>
         <script>
-            function titleCase(str) {
-                str = str.toLowerCase();
-                str = str.split(' ');
-                for (var i = 0; i < str.length; i++) {
-                    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
-                }
-                return str.join(' ');
-                }
-            
-            function titleCaseHyphenated(str) {
-            str = str.toLowerCase();
-            str = str.split('-');
-            for (var i = 0; i < str.length; i++) {
-                str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
-            }
-            return str.join('-');
-            }
-
             function copysharelink() {
                 /* Get the text field */
                 var copyText = document.getElementById("sharelink");
@@ -431,6 +439,22 @@
                 var weblink = "https://whomademydrink.kotla.eu?d=" + encodeURIComponent(brand)
                 var sharelink = document.getElementById("sharelink")
                 sharelink.setAttribute("value", weblink);
+                
+                var redditlink = document.getElementById("redditlink")
+                var redditlinktext = "https://reddit.com/submit?url=" + encodeURIComponent(weblink) + "&title=Who%20Made%20My%20Drink%3F"
+                redditlink.setAttribute("href", redditlinktext);
+
+                var whatsapplink = document.getElementById("whatsapplink")
+                var whatsapplinktext = "whatsapp://send?text=" + encodeURIComponent(weblink)
+                whatsapplink.setAttribute("href", whatsapplinktext);
+
+                var facebooklink = document.getElementById("facebooklink")
+                var facebooklinktext = "https://www.facebook.com/sharer.php?u=" + encodeURIComponent(weblink)
+                facebooklink.setAttribute("href", facebooklinktext);
+
+                var emaillink = document.getElementById("emaillink")
+                var emaillinktext = "mailto:?subject=Who%20Made%20My%20Drink%3F&body=" + encodeURIComponent(weblink)
+                emaillink.setAttribute("href", emaillinktext);
             }
             
             /*function sharebtn(brand) {
@@ -486,8 +510,19 @@
                 xmlhttp.open("GET", "drinks.json", true);
                 xmlhttp.send();
             }
+            function naming(brand) {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var myObj = JSON.parse(this.responseText);
+                    var brandblock = document.getElementById("brand");
+                    document.getElementById("brandname").innerHTML = myObj.drinks[brand].name;
+                }
+                };
+                xmlhttp.open("GET", "drinks.json", true);
+                xmlhttp.send();
+            }
             function check(brand) {
-                document.getElementById("brandname").innerHTML = brand;
                 var xmlhttp = new XMLHttpRequest();
                 xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
@@ -502,6 +537,8 @@
                 image(brand);
                 imagecolor(brand);
                 /*sharebtn(brand);*/
+                sharelink(brand);
+                naming(brand);
                 sharelink(brand);
                 myFunction();
             }
@@ -534,7 +571,7 @@
             if (parametertext == null) {
                 console.log("No Drink Parameter Passed");
             } else {
-                check(decodeURIComponent(titleCase(titleCaseHyphenated(parametertext))));
+                check(decodeURIComponent(parametertext).toLowerCase());
             }
         </script>
     </body>

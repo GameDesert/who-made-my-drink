@@ -1,6 +1,7 @@
 {"drinks":
     {
-    "Fever-Tree":{
+    "fever tree":{
+        "name":"Fever-Tree",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -11,7 +12,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/fevertree.png"
     },
-    "Diet Coke":{
+    "diet coke":{
+        "name":"Diet Coke",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -22,7 +24,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/dietcoke.png"
     },
-    "Coca-Cola Zero Sugar":{
+    "coca-cola zero sugar":{
+        "name":"Coca-Cola Zero Sugar",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -33,7 +36,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/cocacolazero.png"
     },
-    "Coca-Cola":{
+    "coca-cola":{
+        "name":"Coca-Cola",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -44,7 +48,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/cocacola.png"
     },
-    "Coca-Cola Signature Mixers":{
+    "coca-cola signature mixers":{
+        "name":"Coca-Cola Signature Mixers",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -55,7 +60,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/cocacolamixers.png"
     },
-    "Coca-Cola Energy":{
+    "coca-cola energy":{
+        "name":"Coca-Cola Energy",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -66,7 +72,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/cocacolaenergy.png"
     },
-    "Schweppes":{
+    "schweppes":{
+        "name":"Schweppes",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -77,7 +84,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/schweppes.png"
     },
-    "San Pellegrino":{
+    "san pellegrino":{
+        "name":"San Pellegrino",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -88,7 +96,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/sanpellegrino.png"
     },
-    "Fanta":{
+    "fanta":{
+        "name":"Fanta",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -99,7 +108,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/fanta.png"
     },
-    "Cawston Press":{
+    "cawston press":{
+        "name":"Cawston Press",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -110,7 +120,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/cawstonpress.svg"
     },
-    "R. Whites":{
+    "r whites":{
+        "name":"R. White's",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -121,7 +132,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/rwhites.png"
     },
-    "Sprite":{
+    "sprite":{
+        "name":"Sprite",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -132,7 +144,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/sprite.png"
     },
-    "Fentimans":{
+    "fentimans":{
+        "name":"Fentimans",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -143,7 +156,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/fentimans.svg"
     },
-    "Old Jamaica":{
+    "old jamaica":{
+        "name":"Old Jamaica",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -154,7 +168,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/oldjamaica.svg"
     },
-    "J2O":{
+    "j2o":{
+        "name":"J2O",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -165,7 +180,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/j2o.png"
     },
-    "Bottlegreen":{
+    "bottlegreen":{
+        "name":"Bottlegreen",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -176,7 +192,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/bottlegreen.png"
     },
-    "Pepsi":{
+    "pepsi":{
+        "name":"Pepsi",
         "cocacola":false,
         "pepsico":true,
         "independent":false,
@@ -187,7 +204,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/pepsi.png"
     },
-    "Shloer":{
+    "shloer":{
+        "name":"Shloer",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -198,7 +216,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/shloer.png"
     },
-    "Lucozade":{
+    "lucozade":{
+        "name":"Lucozade",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -209,7 +228,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/lucozade.png"
     },
-    "Belvoir":{
+    "belvoir":{
+        "name":"Belvoir",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -220,7 +240,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/belvoir.png"
     },
-    "Robinsons":{
+    "robinsons":{
+        "name":"Robinsons",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -231,7 +252,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/robinsons.png"
     },
-    "London Essence Co.":{
+    "london essence co":{
+        "name":"London Essence Co.",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -242,7 +264,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/londonessence.svg"
     },
-    "Appletiser":{
+    "appletiser":{
+        "name":"Appletiser",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -253,7 +276,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/appletiser.png"
     },
-    "Double Dutch":{
+    "double dutch":{
+        "name":"Double Dutch",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -264,7 +288,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/doubledutch.png"
     },
-    "Lipton":{
+    "lipton":{
+        "name":"Lipton",
         "cocacola":false,
         "pepsico":true,
         "independent":false,
@@ -275,7 +300,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/lipton.webp"
     },
-    "Red Bull":{
+    "red bull":{
+        "name":"Red Bull",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -286,7 +312,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/redbull.svg"
     },
-    "Dr. Pepper":{
+    "dr pepper":{
+        "name":"Dr. Pepper",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -297,7 +324,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/drpepper.png"
     },
-    "Monster Energy":{
+    "monster energy":{
+        "name":"Monster Energy",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -308,7 +336,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/monsterenergy.webp"
     },
-    "Dalstons":{
+    "dalstons":{
+        "name":"Dalston's",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -319,7 +348,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/dalstons.webp"
     },
-    "Irn Bru":{
+    "irn bru":{
+        "name":"Irn Bru",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -330,7 +360,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/irnbru.png"
     },
-    "Oasis":{
+    "oasis":{
+        "name":"Oasis",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -341,7 +372,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/oasis.png"
     },
-    "Tropicana":{
+    "tropicana":{
+        "name":"Tropicana",
         "cocacola":false,
         "pepsico":true,
         "independent":false,
@@ -352,7 +384,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/tropicana.png"
     },
-    "7 Up":{
+    "7 up":{
+        "name":"7 Up",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -363,7 +396,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/7up.webp"
     },
-    "Naked":{
+    "naked":{
+        "name":"Naked",
         "cocacola":false,
         "pepsico":true,
         "independent":false,
@@ -374,7 +408,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/naked.png"
     },
-    "Mountain Dew":{
+    "mountain dew":{
+        "name":"Mountain Dew",
         "cocacola":false,
         "pepsico":true,
         "independent":false,
@@ -385,7 +420,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/mountaindew.png"
     },
-    "Gatorade":{
+    "gatorade":{
+        "name":"Gatorade",
         "cocacola":false,
         "pepsico":true,
         "independent":false,
@@ -396,7 +432,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/gatorade.png"
     },
-    "Glaceau Smartwater":{
+    "glaceau smartwater":{
+        "name":"Glaceau Smartwater",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -407,7 +444,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/glaceausmartwater.png"
     },
-    "Glaceau Vitaminwater":{
+    "glaceau vitaminwater":{
+        "name":"Glaceau Vitaminwater",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -418,7 +456,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/glaceauvitaminwater.png"
     },
-    "Lilt":{
+    "lilt":{
+        "name":"Lilt",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -429,7 +468,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/lilt.png"
     },
-    "Roses":{
+    "roses":{
+        "name":"Rose's",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -440,7 +480,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/roses.png"
     },
-    "Powerade":{
+    "powerade":{
+        "name":"Powerade",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -451,7 +492,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/powerade.png"
     },
-    "Schweppes Signature Collection":{
+    "schweppes signature collection":{
+        "name":"Schweppes Signature Collection",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -462,7 +504,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/schweppessignature.png"
     },
-    "Fuzetea":{
+    "fuzetea":{
+        "name":"Fuzetea",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -473,7 +516,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/fuzetea.png"
     },
-    "Aquarius":{
+    "aquarius":{
+        "name":"Aquarius",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -484,7 +528,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/aquarius.png"
     },
-    "Honest Organic":{
+    "honest organic":{
+        "name":"Honest Organic",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -495,7 +540,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/honestorganic.png"
     },
-    "Costa Coffee":{
+    "costa coffee":{
+        "name":"Costa Coffee",
         "cocacola":true,
         "pepsico":false,
         "independent":false,
@@ -506,7 +552,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/costacoffee.png"
     },
-    "Ribena":{
+    "ribena":{
+        "name":"Ribena",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -517,7 +564,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/ribena.svg"
     },
-    "Tango":{
+    "tango":{
+        "name":"Tango",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -528,7 +576,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/tango.jpg"
     },
-    "Purdeys":{
+    "purdeys":{
+        "name":"Purdey's",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -539,7 +588,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/purdeys.jpg"
     },
-    "Aqua Libra":{
+    "aqua libra":{
+        "name":"Aqua Libra",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -550,7 +600,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/aqualibra.jpg"
     },
-    "Drench":{
+    "drench":{
+        "name":"Drench",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -561,7 +612,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/drench.jpg"
     },
-    "Ballygowan":{
+    "ballygowan":{
+        "name":"Ballygowan",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -572,7 +624,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/ballygowan.jpg"
     },
-    "Britvic":{
+    "britvic":{
+        "name":"Britvic",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -583,7 +636,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/britvic.jpg"
     },
-    "Bundaberg":{
+    "bundaberg":{
+        "name":"Bundaberg",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -594,7 +648,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/bundaberg.png"
     },
-    "KA":{
+    "ka":{
+        "name":"KA",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -605,7 +660,8 @@
         "logotxtcolor":"#000",
         "logobpath":"assets/ka.svg"
     },
-    "Orangina":{
+    "orangina":{
+        "name":"Orangina",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -616,7 +672,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/orangina.png"
     },
-    "Vimto":{
+    "vimto":{
+        "name":"Vimto",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
@@ -627,7 +684,8 @@
         "logotxtcolor":"#fff",
         "logobpath":"assets/vimto.svg"
     },
-    "Radnor Fruits":{
+    "radnor fruits":{
+        "name":"Radnor Fruits",
         "cocacola":false,
         "pepsico":false,
         "independent":true,
