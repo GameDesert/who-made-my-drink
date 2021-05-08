@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Who Made My Drink?</title>
         <meta charset="UTF-8">
+        <title>Who Made My Drink?</title>
         <script src="https://kit.fontawesome.com/4fe9d71bae.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -20,6 +20,7 @@
         <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
         <meta name="msapplication-config" content="favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
+        <meta name="start_url" content="https://whomademydrink.kotla.eu">
 
         <meta property="og:title" content="Who Made My Drink?"/>
         <meta property="og:description" content="Search the most popular beverages and find out who they're owned by!"/>
@@ -149,6 +150,55 @@
                 margin: 20px;
                 padding: 5px;
             }
+
+            .sharemodal{
+                z-index:3;
+                display:none;
+                padding-top:100px;
+                position:fixed;
+                left:0;
+                top:0;
+                width:100%;
+                height:100%;
+                overflow:auto;
+                background-color:rgb(0,0,0);
+                background-color:rgba(0,0,0,0.4)
+            }
+            .sharemodal-content{
+                margin:auto;
+                background-color:#fff;
+                position:relative;
+                padding:0;
+                outline:0;
+                width:600px
+            }
+
+            .sharemodal-display-topright{
+                position:absolute;
+                right:0;
+                top:0
+            }
+            .sharemodal-button{
+                border:none;
+                display:inline-block;
+                padding:8px 16px;
+                vertical-align:middle;
+                overflow:hidden;
+                text-decoration:none;
+                color:inherit;
+                background-color:inherit;
+                text-align:center;
+                cursor:pointer;
+                white-space:nowrap;
+            }
+            .sharemodal-button{
+                -webkit-touch-callout:none;
+                -webkit-user-select:none;
+                -khtml-user-select:none;
+                -moz-user-select:none;
+                -ms-user-select:none;
+                user-select:none
+            }
         </style>
     </head>
     <body style="margin: 0%; background-color: #d4d4d4;">
@@ -222,7 +272,24 @@
         <br>
         <br>
         <br>
+        <div id="sharemodal" class="sharemodal">
+            <div class="sharemodal-content" style="border-radius: 8px;">
+              <div class="sharemodal-container">
+                <span onclick="document.getElementById('sharemodal').style.display='none'"
+                class="sharemodal-button sharemodal-display-topright">&times;</span>
+                <br>
+                <p><b>Share</b></p>
+                <p>Who Made My Drink?</p>
+                <hr>
+                <p style="font-size: 24px;">Click to Copy Link:</p>
+                <p style="font-size: 20px;"><input onclick="copysharelink()" name="sharelink" id="sharelink" placeholder="https://whomademydrink.kotla.eu/" style="height: 24px; width: 50%;" readonly value="" title="Click To Copy" id="link">&#32;&#32;<button onclick="copysharelink()" style="height: 24px;"><i class="fas fa-copy"></i></button></p>
+                <p style="color: rgb(150, 150, 150); font-size: 20px;" id="copyinfo"></p>
+            </div>
+            </div>
+          </div>
             <div style="border-radius: 18px; width: 45%; display: block; margin-left: auto; margin-right: auto; background-color: #fff; color: #000;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2); border-radius: 18px;" id="brand">
+                <p class="share" id="share" onclick="document.getElementById('sharemodal').style.display='block'" title="Share" style="margin-left: 90%; margin-right: 1%; text-align: right;"><i style="margin-left: auto; margin-right: 0%; text-align: right;" class="fas fa-share"></i></p>
+                <!--<br>-->
                 <img id="logoimage" class="logoimage" src="assets/cocacola.png" alt="Logo">
                 <h3 style="padding-bottom: 5px;" id="brandname">Coca-Cola</h3>
             </div>
@@ -325,6 +392,63 @@
         <p>All trademarks including logos and names are the property of their respective owners. Some data may not be accurate as most brands are licensed to more local manufacturers; this website aims to provide the names of the companies highest up the chain. This website is purely for educational purposes. Bottle by AFY Studio from the Noun Project.<p>
         </footer>
         <script>
+            function titleCase(str) {
+                str = str.toLowerCase();
+                str = str.split(' ');
+                for (var i = 0; i < str.length; i++) {
+                    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+                }
+                return str.join(' ');
+                }
+
+            function copysharelink() {
+                /* Get the text field */
+                var copyText = document.getElementById("sharelink");
+
+                /* Select the text field */
+                copyText.select();
+                copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+                /* Copy the text inside the text field */
+                document.execCommand("copy");
+
+                /* Alert the copied text */
+                alert("Copied the text: " + copyText.value);
+
+                var tooltip = document.getElementById("copyinfo");
+                tooltip.innerHTML = "Copied: " + copyText.value;
+            }
+
+            function sharelink(brand) {
+                var weblink = "https://whomademydrink.kotla.eu?d=" + encodeURIComponent(brand)
+                var sharelink = document.getElementById("sharelink")
+                sharelink.setAttribute("value", weblink);
+            }
+            
+            /*function sharebtn(brand) {
+                var weblink = "https://whomademydrink.kotla.eu?d=" + encodeURIComponent(brand)
+                console.log(weblink);
+                var webdesc = "Find out who owns " + brand + " on 'Who Made My Drink?'."
+                console.log(webdesc);
+                let shareData = {
+                title: 'Who Made My Drink?',
+                text: webdesc,
+                url: weblink,
+                }
+                console.log(shareData);
+
+                const btn = document.querySelector('.share');
+
+                // Must be triggered some kind of "user activation"
+                btn.addEventListener('click', async () => {
+                try {
+                    await navigator.share(shareData)
+                    alert('Success!')
+                } catch(err) {
+                    alert('Error: ' + err)
+                }
+                });
+            }*/
             function imagecolor(brand) {
                 var logoimage = document.getElementById("logoimage")
                 logoimage.setAttribute("alt", brand);
@@ -369,6 +493,8 @@
                 xmlhttp.send();
                 image(brand);
                 imagecolor(brand);
+                /*sharebtn(brand);*/
+                sharelink(brand);
                 myFunction();
             }
 
@@ -392,6 +518,15 @@
                     a[i].style.display = "none";
                     }
                 }
+            }
+
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const parametertext = urlParams.get('d');
+            if (parametertext == null) {
+                console.log("No Drink Parameter Passed");
+            } else {
+                check(decodeURIComponent(titleCase(parametertext)));
             }
         </script>
     </body>
