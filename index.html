@@ -530,7 +530,7 @@
                 if (this.readyState == 4 && this.status == 200) {
                     var myObj = JSON.parse(this.responseText);
                     document.getElementById("company").innerHTML = myObj.drinks[brand].brand;
-                    document.getElementById("brandname").innerHTML = "<a style='text-decoration: none; color: " + myObj.drinks[brand].logotxtcolor + ";' href='" + myObj.drinks[brand].website + "' target='_blank'>" + brand + "&#32;<sup><i style='font-size: 14px;' class='fas fa-external-link-alt'></i></sup></a>"
+                    document.getElementById("brandname").innerHTML = "<a style='text-decoration: none; color: " + myObj.drinks[brand].logotxtcolor + ";' href='" + myObj.drinks[brand].website + "' target='_blank'>" + myObj.drinks[brand].name + "&#32;<sup><i style='font-size: 14px;' class='fas fa-external-link-alt'></i></sup></a>"
                     /*document.getElementById("webpagelink").setAttribute("href", myObj.drinks[brand].website);*/
                 }
                 };
