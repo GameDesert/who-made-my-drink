@@ -695,6 +695,18 @@
         "logobgcolor":"#fff",
         "logotxtcolor":"#000",
         "logobpath":"assets/radnor.jpeg"
+    },
+    "calypso":{
+        "name":"Calypso",
+        "cocacola":false,
+        "pepsico":false,
+        "independent":true,
+        "brand":"King Juice Company, Inc.",
+        "website":"https://www.drinkcalypso.com/",
+        "logourl":"https://www.drinkcalypso.com/wp-content/uploads/2020/03/Calypso-Logo.png",
+        "logobgcolor":"#fff",
+        "logotxtcolor":"#000",
+        "logobpath":"assets/calypso.png"
     }
     },
 "companies":{
