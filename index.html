@@ -518,7 +518,7 @@
                 if (this.readyState == 4 && this.status == 200) {
                     var myObj = JSON.parse(this.responseText);
                     var brandblock = document.getElementById("brand");
-                    document.getElementById("brandname").innerHTML = myObj.drinks[brand].name;
+                    /*document.getElementById("brandname").innerHTML = myObj.drinks[brand].name;*/ //If uncommented, will remove links from names.
                 }
                 };
                 xmlhttp.open("GET", "drinks.json", true);
